@@ -104,9 +104,12 @@ void btnDownload_Click()
 }
 
 // ui init call back.
+char sz_ocd_bin[260];
 void ui_init ()
 {
-    mbed_openocd_bin_path ( "E:\\temp\\722\\openocd\\bin" );
+    sprintf ( sz_ocd_bin, "%s\\openocd\\bin", BIN_PATH );
+    mbed_gcc_bin_path ( sz_ocd_bin );
+    mbed_openocd_bin_path ( sz_ocd_bin );
     UI_Enable (1);
 }
 

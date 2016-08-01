@@ -56,11 +56,12 @@ void btnClean_Click()
     exec_redirect_io ( "make.exe", " clean", "exec_done_cb" );
 }
 
-
+char sz_gcc_bin[260];
 // ui init call back.
 void ui_init ()
 {
-    mbed_gcc_bin_path ( "E:\\temp\\722\\gcclite52q4\\bin" );
+    sprintf ( sz_gcc_bin, "%s\\arm_gcc\\bin", BIN_PATH );
+    mbed_gcc_bin_path ( sz_gcc_bin );
     UI_Enable (1);
 }
 
