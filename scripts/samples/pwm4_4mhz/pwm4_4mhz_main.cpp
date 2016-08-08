@@ -6,7 +6,7 @@
 #include "PwmOutEx.h"
 
 
-PwmOutEx mypwm(PA_1, 4000000);
+PwmOutEx mypwm(PWM_OUT, 4000000);
 DigitalOut myled(LED1);
 
 int main() 
@@ -17,3 +17,5 @@ int main()
         wait(1);
     }
 }
+
+
