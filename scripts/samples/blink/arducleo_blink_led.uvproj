@@ -374,9 +374,9 @@
           <GroupName>Source_Files</GroupName>
           <Files>
             <File>
-              <FileName>main.cpp</FileName>
+              <FileName>blink_main.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>main.cpp</FilePath>
+              <FilePath>blink_main.cpp</FilePath>
             </File>
           </Files>
         </Group>
