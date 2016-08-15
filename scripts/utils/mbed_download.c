@@ -49,15 +49,18 @@ void get_openocd_path_info ()
     char *p = strstr ( spath, "\\bin" );
     if (p) *p = 0;
     char *sroot = str_replace ( spath, "\\", "/" );
-    
+    int rdap = ui_getint ( "rDAPLink" );
     //strcpy (spath, "X:/Applet/arduino-1.7.8/hardware/tools/OpenOCD-0.9.0-arduino/bin");
     sprintf ( sz_ocd_scr_path, "%s/%s", sroot, "scripts" );
-    sprintf ( sz_dap_cfg, "%s", "interface/cmsis-dap.cfg" );
+    if (rdap)
+        sprintf ( sz_dap_cfg, "%s", "interface/cmsis-dap.cfg" );
+    else
+        sprintf ( sz_dap_cfg, "%s", "interface/stlink-v2-1.cfg" );
     sprintf ( sz_stm_cfg, "%s", "target/stm32f1x.cfg" );
     strcpy (sz_app_file, mbed_get_target_path ());
     p = str_replace ( sz_app_file, "\\", "/" );
     strcpy (sz_app_file, p);
-    sprintf ( sz_ocd_param, " -s %s -f %s -f %s ", sz_ocd_scr_path, sz_dap_cfg, sz_stm_cfg );
+    sprintf ( sz_ocd_param, " -s %s -f %s -f %s -c \"adapter_khz 4000\" -c \"reset_config srst_only\" ", sz_ocd_scr_path, sz_dap_cfg, sz_stm_cfg );
 }
 
 
@@ -107,6 +110,8 @@ void btnDownload_Click()
 char sz_ocd_bin[260];
 void ui_init ()
 {
+    ui_setint ( "rDAPLink", 1 );
+    ui_setint ( "rSTLink", 0 );
     sprintf ( sz_ocd_bin, "%s\\openocd\\bin", BIN_PATH );
     mbed_gcc_bin_path ( sz_ocd_bin );
     mbed_openocd_bin_path ( sz_ocd_bin );
@@ -117,26 +122,34 @@ void ui_init ()
 // xml ui resource
 char *nfcshare_ui = [[
 <?xml version="1.0" ?>
-<ControlWnd Name="mbed 固件下载" LocationX="0" LocationY="0" SizeWidth="600" SizeHeight="156" >
+<ControlWnd Name="无标题 *" LocationX="0" LocationY="0" SizeWidth="376" SizeHeight="270" >
   <ControlGroups>
     <ControlGroup Name="Group 1">
       <Controls>
 
         <Button Name="btnReset" Visible="true" Enabled="true"
-            LocationX="71" LocationY="52" SizeWidth="120" SizeHeight="34"
+            LocationX="190" LocationY="166" SizeWidth="120" SizeHeight="34"
             Text="复位目标芯片"></Button> 
 
-        <Button Name="btnErase" Visible="true" Enabled="false"
-            LocationX="225" LocationY="52" SizeWidth="120" SizeHeight="34"
-            Text="擦除目标芯片"></Button> 
-
         <Button Name="btnDownload" Visible="true" Enabled="true"
-            LocationX="381" LocationY="52" SizeWidth="120" SizeHeight="34"
+            LocationX="41" LocationY="166" SizeWidth="120" SizeHeight="34"
             Text="下载固件"></Button> 
 
         <Label Name="lbl0" Visible="true" Enabled="true"
-            LocationX="32" LocationY="12" SizeWidth="540" SizeHeight="28"
-            Text="操作前，请链接 Arducleo 硬件。并注意用 mLink 对目标芯片供电。"></Label> 
+            LocationX="32" LocationY="12" SizeWidth="293" SizeHeight="47"
+            Text="操作前，请连接接 Arducleo 硬件的调试端口，并对目标芯片供电。"></Label> 
+
+        <GroupBox Name="g1" Visible="true" Enabled="true"
+            LocationX="34" LocationY="69" SizeWidth="293" SizeHeight="64"
+            Text="烧写器"></GroupBox> 
+
+        <RadioButton Name="rDAPLink" Visible="true" Enabled="true"
+            LocationX="79" LocationY="100" SizeWidth="112" SizeHeight="17"
+            Text="DAPLink" ></RadioButton> 
+
+        <RadioButton Name="rSTLink" Visible="true" Enabled="true"
+            LocationX="193" LocationY="100" SizeWidth="112" SizeHeight="17"
+            Text="STLink" RadioManager="rDAPLink"></RadioButton> 
 
       </Controls>
     </ControlGroup>
