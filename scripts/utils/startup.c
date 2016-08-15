@@ -27,7 +27,7 @@ char *xml_menu=[[
 
 // 加载 Utilities 子菜单
 load_menu (xml_menu);
-set_editor_font ("YaHei Consolas Hybrid", 9);
+set_editor_font ("Consolas", 9);
 
 // 添加 snippet 代码
 add_snippet ("while () ...", "while (true)\n{\n    $end$\n}\n");
