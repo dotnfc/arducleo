@@ -122,7 +122,7 @@ void ui_init ()
 // xml ui resource
 char *nfcshare_ui = [[
 <?xml version="1.0" ?>
-<ControlWnd Name="无标题 *" LocationX="0" LocationY="0" SizeWidth="376" SizeHeight="270" >
+<ControlWnd Name="mbed 固件下载" LocationX="0" LocationY="0" SizeWidth="376" SizeHeight="270" >
   <ControlGroups>
     <ControlGroup Name="Group 1">
       <Controls>

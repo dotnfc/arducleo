@@ -52,7 +52,7 @@
           <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
-          <ListingPath>X:\Users\dotnfc\Documents\</ListingPath>
+          <ListingPath>.\buildmdk\list\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
           <CreateBatchFile>0</CreateBatchFile>
@@ -328,9 +328,9 @@
             <vShortWch>1</vShortWch>
             <VariousControls>
               <MiscControls> --restrict --multibyte_chars --apcs=interwork -c -O3 -Otime --brief_diagnostics -D__ASSERT_MSG --no_depend_system_headers --preinclude=../mbed_config.h --md --cpu=Cortex-M3 --split_sections --no_rtti --gnu</MiscControls>
-              <Define>__MBED__=1, DEVICE_I2CSLAVE=1, TARGET_LIKE_MBED, DEVICE_PORTINOUT=1, __MBED_CMSIS_RTOS_CM, TARGET_STM32F1, DEVICE_RTC=1, TOOLCHAIN_object, __CMSIS_RTOS, DEVICE_CAN=1, TARGET_LIKE_CORTEX_M3, TARGET_CORTEX_M, ARM_MATH_CM3, TARGET_UVISOR_UNSUPPORTED, TARGET_M3, DEVICE_SERIAL=1, DEVICE_INTERRUPTIN=1, DEVICE_I2C=1, DEVICE_PORTOUT=1, __CORTEX_M3, DEVICE_STDIO_MESSAGES=1, TARGET_FF_MORPHO, TARGET_FF_ARDUINO, TARGET_RELEASE, TARGET_STM, DEVICE_PORTIN=1, DEVICE_SLEEP=1, TARGET_NUCLEO_F103RB, MBED_BUILD_TIMESTAMP=1469712098, DEVICE_SPI=1, TARGET_STM32F103RB, DEVICE_SPISLAVE=1, DEVICE_ANALOGIN=1, DEVICE_PWMOUT=1, TOOLCHAIN_ARM, TOOLCHAIN_ARM_STD, __ASSERT_MSG</Define>
+              <Define>__MBED__=1, DEVICE_I2CSLAVE=1, TARGET_LIKE_MBED, DEVICE_PORTINOUT=1, __MBED_CMSIS_RTOS_CM, TARGET_STM32F1, DEVICE_RTC=1, TOOLCHAIN_object, __CMSIS_RTOS, DEVICE_CAN=0, TARGET_LIKE_CORTEX_M3, TARGET_CORTEX_M, ARM_MATH_CM3, TARGET_UVISOR_UNSUPPORTED, TARGET_M3, DEVICE_SERIAL=1, DEVICE_INTERRUPTIN=1, DEVICE_I2C=1, DEVICE_PORTOUT=1, __CORTEX_M3, DEVICE_STDIO_MESSAGES=1, TARGET_FF_MORPHO, TARGET_FF_ARDUINO, TARGET_RELEASE, TARGET_STM, DEVICE_PORTIN=1, DEVICE_SLEEP=1, TARGET_NUCLEO_F103RB, MBED_BUILD_TIMESTAMP=1469712098, DEVICE_SPI=1, TARGET_STM32F103RB, DEVICE_SPISLAVE=1, DEVICE_ANALOGIN=1, DEVICE_PWMOUT=1, TOOLCHAIN_ARM, TOOLCHAIN_ARM_STD, __ASSERT_MSG</Define>
               <Undefine></Undefine>
-              <IncludePath>.; ../../mbed_mdk/; ../../mbed_mdk/TARGET_NUCLEO_F103RB; ../../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM; ../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1; ../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB; ../../mbed_mdk/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD</IncludePath>
+              <IncludePath>.;../../mbed_mdk/;../../mbed_mdk/TARGET_NUCLEO_F103RB;../../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM;../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1;../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB;../../mbed_mdk/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -634,6 +634,11 @@
               <FilePath>../../mbed_mdk/platform.h</FilePath>
             </File>
             <File>
+              <FileName>PlatformMutex.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../mbed_mdk/PlatformMutex.h</FilePath>
+            </File>
+            <File>
               <FileName>port_api.h</FileName>
               <FileType>5</FileType>
               <FilePath>../../mbed_mdk/port_api.h</FilePath>
@@ -697,6 +702,11 @@
               <FileName>SerialBase.h</FileName>
               <FileType>5</FileType>
               <FilePath>../../mbed_mdk/SerialBase.h</FilePath>
+            </File>
+            <File>
+              <FileName>SingletonPtr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../mbed_mdk/SingletonPtr.h</FilePath>
             </File>
             <File>
               <FileName>sleep_api.h</FileName>
@@ -1139,6 +1149,11 @@
           <GroupName>mbed/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1</GroupName>
           <Files>
             <File>
+              <FileName>common_objects.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1/common_objects.h</FilePath>
+            </File>
+            <File>
               <FileName>gpio_object.h</FileName>
               <FileType>5</FileType>
               <FilePath>../../mbed_mdk/TARGET_NUCLEO_F103RB/TARGET_STM/TARGET_STM32F1/gpio_object.h</FilePath>
@@ -1184,11 +1199,6 @@
           <GroupName>mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD</GroupName>
           <Files>
             <File>
-              <FileName>board.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>../../mbed_mdk/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD/board.o</FilePath>
-            </File>
-            <File>
               <FileName>cmsis_nvic.o</FileName>
               <FileType>3</FileType>
               <FilePath>../../mbed_mdk/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD/cmsis_nvic.o</FilePath>
@@ -1202,6 +1212,11 @@
               <FileName>mbed.ar</FileName>
               <FileType>4</FileType>
               <FilePath>../../mbed_mdk/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD/mbed.ar</FilePath>
+            </File>
+            <File>
+              <FileName>mbed_board.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>../../mbed_mdk/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_STD/mbed_board.o</FilePath>
             </File>
             <File>
               <FileName>mbed_overrides.o</FileName>
