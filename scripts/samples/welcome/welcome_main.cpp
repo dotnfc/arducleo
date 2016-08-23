@@ -24,8 +24,7 @@ void tone(int frequency, float duration)
 
     // calculate the period of the note in turn play
     period = 1000000 / frequency;
-    // Activate the LED of the core to indicate that we are playing a note
-    led = 1;
+
     // set the period calculated at the PWM output
     buz.period_us (period);
     
@@ -33,14 +32,13 @@ void tone(int frequency, float duration)
     buz.write (0.50f);
     // hope the time set by the tone i
     wait_ms (duration);
-    // disabled the core led to indicate the end of the note
-    led = 0;
+
     // ended the note
     buz = 0;
 }
 
 
-void analogWrite(mbed::PwmOut *prt, float spd) // write to PWM
+void analogWrite(mbed::PwmOut *prt, int spd) // write to PWM
 {
     float a = spd / 256.0; // convert 0..256 to '%'
     //pc.printf ( "a - %d, (%f)\n", spd, a );
@@ -55,9 +53,6 @@ void color (unsigned char red, unsigned char green, unsigned char blue)
      analogWrite(&ledR, 255-red);
      analogWrite(&ledB, 255-blue);
      analogWrite(&ledG, 255-green);
-     //ledR = 255-red;
-     //ledB = 255-blue;
-     //ledG = 255-green;
 }	 
 
 void delay (int ms)
@@ -70,20 +65,22 @@ void delay (int ms)
  * \brief main entry
  */
 void loop();
-void loop1();
 int main ()
 {
-    ledR = ledG = ledB = 1;
+    __HAL_AFIO_REMAP_SWJ_NOJTAG ();
     //pc.baud (115200);
-    //led = 1;
-    tone (120, 800);
-    tone (200, 600);
-    tone (300, 400);
-    //
-    //led = 0;
+    
+    tone (1000, 400);
+    tone (600, 400);
+    
+    ledR.period_us (1000000/500);
+    ledG.period_us (1000000/500);
+    ledB.period_us (1000000/500);
+    ledR = ledG = ledB = 1;
     
     while(1) {
-        //loop1 ();
+        led = !led;
+        loop ();
 #if 0
         led = 1;        
         ledR = 1;   ledB = 0;   ledG = 0;   wait_ms (1000);
@@ -121,11 +118,11 @@ void loop1 () 	 // run over and over again
      //wait_ms (1000);	//delay for 1 second  
 }
 
-#define FADESPEED 5     // make this higher to slow down
+#define FADESPEED 8     // make this higher to slow down
 void loop() 
 {
   int r, g, b;
- 
+
   // fade from blue to violet
   for (r = 0; r < 256; r++) { 
     analogWrite(&ledR, r);
