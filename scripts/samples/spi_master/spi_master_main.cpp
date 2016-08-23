@@ -1,5 +1,9 @@
 // Send data with SPI.
 // https://developer.mbed.org/teams/ST/code/Nucleo_spi_master/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

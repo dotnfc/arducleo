@@ -1,5 +1,9 @@
 // Read an analog value using ADC.
 // https://developer.mbed.org/teams/ST/code/Nucleo_read_analog_value/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

@@ -1,5 +1,9 @@
 // Display the date and time using RTC.
 // https://developer.mbed.org/teams/ST/code/Nucleo_display_time/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

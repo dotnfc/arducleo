@@ -1,5 +1,9 @@
 // Enter in sleep or deepsleep modes.
 // https://developer.mbed.org/teams/ST/code/Nucleo_sleep/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

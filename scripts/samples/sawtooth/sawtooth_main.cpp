@@ -1,5 +1,9 @@
 // Basic example to use the DAC. Output a sawtooth signal.
 // https://developer.mbed.org/teams/ST/code/Nucleo_sawtooth/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

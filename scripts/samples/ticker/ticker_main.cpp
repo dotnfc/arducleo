@@ -1,5 +1,9 @@
 // Basic example of how to blink a led using the Ticker object.
 // https://developer.mbed.org/teams/ST/code/Nucleo_ticker/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

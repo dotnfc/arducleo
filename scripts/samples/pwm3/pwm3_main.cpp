@@ -1,5 +1,9 @@
 // Output a PWM signal on any IO using Timeout.
 // https://developer.mbed.org/teams/ST/code/Nucleo_pwm3/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

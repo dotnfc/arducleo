@@ -1,5 +1,9 @@
 // Display a message on PC using UART.
 // https://developer.mbed.org/teams/ST/code/Nucleo_printf/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

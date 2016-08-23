@@ -1,5 +1,9 @@
 // Read the user button using external interrupt.
 // https://developer.mbed.org/teams/ST/code/Nucleo_read_button_interrupt/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

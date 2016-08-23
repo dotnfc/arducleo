@@ -328,9 +328,9 @@
             <vShortWch>1</vShortWch>
             <VariousControls>
               <MiscControls> -D__MICROLIB --restrict --multibyte_chars --apcs=interwork -c -O0 -Otime --brief_diagnostics --library_type=microlib -D__ASSERT_MSG --no_depend_system_headers --preinclude=../mbed_config.h --md --cpu=Cortex-M0 --split_sections --no_rtti --gnu</MiscControls>
-              <Define>__MBED__=1, DEVICE_I2CSLAVE=1, TARGET_LIKE_MBED, DEVICE_RTC_LSI=1, TARGET_NUCLEO_F031K6, DEVICE_PORTINOUT=1, __MBED_CMSIS_RTOS_CM, TARGET_STM32F0, DEVICE_RTC=1, TOOLCHAIN_object, __CMSIS_RTOS, TARGET_CORTEX_M, ARM_MATH_CM0, TARGET_UVISOR_UNSUPPORTED, TARGET_M0, DEVICE_SERIAL=1, DEVICE_INTERRUPTIN=1, __CORTEX_M0, DEVICE_I2C=1, DEVICE_PORTOUT=1, DEVICE_STDIO_MESSAGES=1, TOOLCHAIN_ARM_MICRO, TARGET_FF_ARDUINO, TARGET_RELEASE, TARGET_STM, DEVICE_PORTIN=1, DEVICE_SLEEP=1, MBED_BUILD_TIMESTAMP=1471942695, DEVICE_SPI=1, TARGET_STM32F031K6, DEVICE_SPISLAVE=1, DEVICE_ANALOGIN=1, DEVICE_PWMOUT=1, TOOLCHAIN_ARM, TARGET_LIKE_CORTEX_M0, __ASSERT_MSG</Define>
+              <Define>__MBED__=1, DEVICE_I2CSLAVE=1, TARGET_LIKE_MBED, DEVICE_RTC_LSI=1, TARGET_ARDUCLEO_F051K8, DEVICE_PORTINOUT=1, __MBED_CMSIS_RTOS_CM, TARGET_STM32F0, DEVICE_RTC=1, TOOLCHAIN_object, __CMSIS_RTOS, TARGET_CORTEX_M, ARM_MATH_CM0, TARGET_UVISOR_UNSUPPORTED, TARGET_M0, DEVICE_SERIAL=1, DEVICE_INTERRUPTIN=1, __CORTEX_M0, DEVICE_I2C=1, DEVICE_PORTOUT=1, DEVICE_STDIO_MESSAGES=1, TOOLCHAIN_ARM_MICRO, TARGET_FF_ARDUINO, TARGET_RELEASE, TARGET_STM, DEVICE_PORTIN=1, DEVICE_SLEEP=1, MBED_BUILD_TIMESTAMP=1471942695, DEVICE_SPI=1, TARGET_STM32F051K8, DEVICE_SPISLAVE=1, DEVICE_ANALOGIN=1, DEVICE_PWMOUT=1, TOOLCHAIN_ARM, TARGET_LIKE_CORTEX_M0, __ASSERT_MSG</Define>
               <Undefine></Undefine>
-              <IncludePath>.; ../../mbed; ../../mbed/TARGET_NUCLEO_F031K6; ../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM; ../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0; ../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6; ../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO</IncludePath>
+              <IncludePath>.; ../../mbed; ../../mbed/TARGET_ARDUCLEO_F051K8; ../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM; ../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0; ../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8; ../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -344,7 +344,7 @@
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
             <VariousControls>
-              <MiscControls>--cpreproc --cpreproc_opts=-D__MBED__=1,-DDEVICE_I2CSLAVE=1,-DTARGET_LIKE_MBED,-DDEVICE_RTC_LSI=1,-DTARGET_NUCLEO_F031K6,-DDEVICE_PORTINOUT=1,-D__MBED_CMSIS_RTOS_CM,-DTARGET_STM32F0,-DDEVICE_RTC=1,-DTOOLCHAIN_object,-D__CMSIS_RTOS,-DTARGET_CORTEX_M,-DARM_MATH_CM0,-DTARGET_UVISOR_UNSUPPORTED,-DTARGET_M0,-DDEVICE_SERIAL=1,-DDEVICE_INTERRUPTIN=1,-D__CORTEX_M0,-DDEVICE_I2C=1,-DDEVICE_PORTOUT=1,-DDEVICE_STDIO_MESSAGES=1,-DTOOLCHAIN_ARM_MICRO,-DTARGET_FF_ARDUINO,-DTARGET_RELEASE,-DTARGET_STM,-DDEVICE_PORTIN=1,-DDEVICE_SLEEP=1,-DMBED_BUILD_TIMESTAMP=1471942695,-DDEVICE_SPI=1,-DTARGET_STM32F031K6,-DDEVICE_SPISLAVE=1,-DDEVICE_ANALOGIN=1,-DDEVICE_PWMOUT=1,-DTOOLCHAIN_ARM,-DTARGET_LIKE_CORTEX_M0,-D__ASSERT_MSG</MiscControls>
+              <MiscControls>--cpreproc --cpreproc_opts=-D__MBED__=1,-DDEVICE_I2CSLAVE=1,-DTARGET_LIKE_MBED,-DDEVICE_RTC_LSI=1,-DTARGET_ARDUCLEO_F051K8,-DDEVICE_PORTINOUT=1,-D__MBED_CMSIS_RTOS_CM,-DTARGET_STM32F0,-DDEVICE_RTC=1,-DTOOLCHAIN_object,-D__CMSIS_RTOS,-DTARGET_CORTEX_M,-DARM_MATH_CM0,-DTARGET_UVISOR_UNSUPPORTED,-DTARGET_M0,-DDEVICE_SERIAL=1,-DDEVICE_INTERRUPTIN=1,-D__CORTEX_M0,-DDEVICE_I2C=1,-DDEVICE_PORTOUT=1,-DDEVICE_STDIO_MESSAGES=1,-DTOOLCHAIN_ARM_MICRO,-DTARGET_FF_ARDUINO,-DTARGET_RELEASE,-DTARGET_STM,-DDEVICE_PORTIN=1,-DDEVICE_SLEEP=1,-DMBED_BUILD_TIMESTAMP=1471942695,-DDEVICE_SPI=1,-DTARGET_STM32F051K8,-DDEVICE_SPISLAVE=1,-DDEVICE_ANALOGIN=1,-DDEVICE_PWMOUT=1,-DTOOLCHAIN_ARM,-DTARGET_LIKE_CORTEX_M0,-D__ASSERT_MSG</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
               <IncludePath></IncludePath>
@@ -360,7 +360,7 @@
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0x10000000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx.sct</ScatterFile>
+            <ScatterFile>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx.sct</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc></Misc>
@@ -2113,667 +2113,719 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>mbed/TARGET_NUCLEO_F031K6</GroupName>
+          <GroupName>mbed/TARGET_ARDUCLEO_F051K8</GroupName>
           <Files>
             <File>
               <FileName>arm_common_tables.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/arm_common_tables.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/arm_common_tables.h</FilePath>
             </File>
             <File>
               <FileName>arm_const_structs.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/arm_const_structs.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/arm_const_structs.h</FilePath>
             </File>
             <File>
               <FileName>arm_math.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/arm_math.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/arm_math.h</FilePath>
             </File>
             <File>
               <FileName>cmsis.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/cmsis.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/cmsis.h</FilePath>
             </File>
             <File>
               <FileName>cmsis_nvic.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/cmsis_nvic.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/cmsis_nvic.h</FilePath>
             </File>
             <File>
               <FileName>core_ca9.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_ca9.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_ca9.h</FilePath>
             </File>
             <File>
               <FileName>core_ca_mmu.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_ca_mmu.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_ca_mmu.h</FilePath>
             </File>
             <File>
               <FileName>core_caFunc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_caFunc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_caFunc.h</FilePath>
             </File>
             <File>
               <FileName>core_caInstr.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_caInstr.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_caInstr.h</FilePath>
             </File>
             <File>
               <FileName>core_cm0.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cm0.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm0.h</FilePath>
             </File>
             <File>
               <FileName>core_cm0plus.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cm0plus.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm0plus.h</FilePath>
             </File>
             <File>
               <FileName>core_cm3.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cm3.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm3.h</FilePath>
             </File>
             <File>
               <FileName>core_cm4.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cm4.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm4.h</FilePath>
             </File>
             <File>
               <FileName>core_cm4_simd.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cm4_simd.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm4_simd.h</FilePath>
             </File>
             <File>
               <FileName>core_cm7.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cm7.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm7.h</FilePath>
             </File>
             <File>
               <FileName>core_cmFunc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cmFunc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmFunc.h</FilePath>
             </File>
             <File>
               <FileName>core_cmInstr.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cmInstr.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmInstr.h</FilePath>
             </File>
             <File>
               <FileName>core_cmSecureAccess.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cmSecureAccess.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmSecureAccess.h</FilePath>
             </File>
             <File>
               <FileName>core_cmSimd.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_cmSimd.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmSimd.h</FilePath>
             </File>
             <File>
               <FileName>core_sc000.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_sc000.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_sc000.h</FilePath>
             </File>
             <File>
               <FileName>core_sc300.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/core_sc300.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/core_sc300.h</FilePath>
             </File>
             <File>
               <FileName>hal_tick.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/hal_tick.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/hal_tick.h</FilePath>
             </File>
             <File>
               <FileName>stm32_hal_legacy.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32_hal_legacy.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32_hal_legacy.h</FilePath>
             </File>
             <File>
-              <FileName>stm32f031x6.h</FileName>
+              <FileName>stm32f051x8.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f031x6.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f051x8.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_adc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_adc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_adc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_adc_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_adc_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_adc_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_can.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_can.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_can.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_cec.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_cec.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_cec.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_comp.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_comp.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_comp.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_conf.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_conf.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_conf.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_cortex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_cortex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_cortex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_crc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_crc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_crc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_crc_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_crc_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_crc_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dac.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dac.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dac.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dac_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dac_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dac_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_def.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_def.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_def.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dma.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dma.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dma.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dma_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dma_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dma_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_flash.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_flash.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_flash.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_flash_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_flash_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_flash_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_gpio.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_gpio.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_gpio_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_gpio_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_gpio_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_i2c.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_i2c.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_i2c.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_i2c_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_i2c_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_i2c_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_i2s.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_i2s.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_i2s.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_irda.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_irda.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_irda.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_irda_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_irda_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_irda_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_iwdg.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_iwdg.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_iwdg.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pcd.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pcd.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pcd.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pcd_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pcd_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pcd_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pwr.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pwr.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pwr.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pwr_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pwr_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pwr_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rcc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rcc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rcc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rcc_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rcc_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rcc_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rtc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rtc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rtc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rtc_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rtc_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rtc_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_smartcard.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_smartcard.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_smartcard.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_smartcard_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_smartcard_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_smartcard_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_smbus.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_smbus.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_smbus.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_spi.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_spi.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_spi.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_spi_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_spi_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_spi_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_tim.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_tim.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_tim.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_tim_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_tim_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_tim_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_tsc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_tsc.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_tsc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_uart.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_uart.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_uart.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_uart_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_uart_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_uart_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_usart.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_usart.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_usart.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_usart_ex.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_usart_ex.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_usart_ex.h</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_wwdg.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_wwdg.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_wwdg.h</FilePath>
             </File>
             <File>
               <FileName>system_stm32f0xx.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/system_stm32f0xx.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/system_stm32f0xx.h</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0</GroupName>
+          <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0</GroupName>
           <Files>
             <File>
               <FileName>common_objects.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/common_objects.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/common_objects.h</FilePath>
             </File>
             <File>
               <FileName>gpio_object.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/gpio_object.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/gpio_object.h</FilePath>
             </File>
             <File>
               <FileName>PeripheralPins.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/PeripheralPins.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/PeripheralPins.h</FilePath>
             </File>
             <File>
               <FileName>rtc_api_hal.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/rtc_api_hal.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/rtc_api_hal.h</FilePath>
+            </File>
+            <File>
+              <FileName>PeripheralPins.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\mbed\TARGET_ARDUCLEO_F051K8\TARGET_STM\TARGET_STM32F0\TARGET_ARDUCLEO_F051K8\PeripheralPins.c</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>0</IncludeInBuild>
+                  <AlwaysBuild>0</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>1</ComprImg>
+                </CommonProperty>
+                <FileArmAds>
+                  <Cads>
+                    <interw>2</interw>
+                    <Optim>0</Optim>
+                    <oTime>2</oTime>
+                    <SplitLS>2</SplitLS>
+                    <OneElfS>2</OneElfS>
+                    <Strict>2</Strict>
+                    <EnumInt>2</EnumInt>
+                    <PlainCh>2</PlainCh>
+                    <Ropi>2</Ropi>
+                    <Rwpi>2</Rwpi>
+                    <wLevel>2</wLevel>
+                    <uThumb>2</uThumb>
+                    <uSurpInc>2</uSurpInc>
+                    <uC99>2</uC99>
+                    <useXO>2</useXO>
+                    <v6Lang>0</v6Lang>
+                    <v6LangP>0</v6LangP>
+                    <vShortEn>2</vShortEn>
+                    <vShortWch>2</vShortWch>
+                    <VariousControls>
+                      <MiscControls></MiscControls>
+                      <Define></Define>
+                      <Undefine></Undefine>
+                      <IncludePath></IncludePath>
+                    </VariousControls>
+                  </Cads>
+                </FileArmAds>
+              </FileOption>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6</GroupName>
+          <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8</GroupName>
           <Files>
             <File>
               <FileName>device.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/device.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/device.h</FilePath>
             </File>
             <File>
               <FileName>objects.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/objects.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/objects.h</FilePath>
             </File>
             <File>
               <FileName>PeripheralNames.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/PeripheralNames.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/PeripheralNames.h</FilePath>
             </File>
             <File>
               <FileName>PinNames.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/PinNames.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/PinNames.h</FilePath>
             </File>
             <File>
               <FileName>PortNames.h</FileName>
               <FileType>5</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/PortNames.h</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/PortNames.h</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO</GroupName>
+          <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO</GroupName>
           <Files>
             <File>
               <FileName>cmsis_nvic.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o</FilePath>
             </File>
             <File>
               <FileName>hal_tick.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/hal_tick.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/hal_tick.o</FilePath>
             </File>
             <File>
               <FileName>mbed.ar</FileName>
               <FileType>4</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/mbed.ar</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed.ar</FilePath>
             </File>
             <File>
               <FileName>mbed_board.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/mbed_board.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed_board.o</FilePath>
             </File>
             <File>
               <FileName>mbed_overrides.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/mbed_overrides.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed_overrides.o</FilePath>
             </File>
             <File>
               <FileName>retarget.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/retarget.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/retarget.o</FilePath>
             </File>
             <File>
-              <FileName>startup_stm32f031x6.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/startup_stm32f031x6.o</FilePath>
+              <FileName>startup_stm32f051x8.s</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/startup_stm32f051x8.s</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_adc.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_adc_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_can.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_can.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_can.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_cec.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cec.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cec.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_comp.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_comp.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_comp.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_cortex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cortex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cortex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_crc.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_crc_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dac.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dac_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_dma.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dma.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dma.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_flash.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_flash_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_gpio.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_gpio.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_gpio.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_i2c.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_i2c_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_i2s.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2s.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2s.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_irda.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_irda.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_irda.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_iwdg.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_iwdg.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_iwdg.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pcd.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pcd_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pwr.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_pwr_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rcc.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rcc_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rtc.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_rtc_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_smartcard.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_smartcard_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_smbus.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smbus.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smbus.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_spi.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_spi_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_tim.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_tim_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_tsc.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tsc.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tsc.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_uart.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_uart_ex.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart_ex.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart_ex.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_usart.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_usart.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_usart.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal_wwdg.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_wwdg.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_wwdg.o</FilePath>
             </File>
             <File>
               <FileName>system_stm32f0xx.o</FileName>
               <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/system_stm32f0xx.o</FilePath>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/system_stm32f0xx.o</FilePath>
             </File>
           </Files>
         </Group>

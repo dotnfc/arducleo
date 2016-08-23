@@ -1,5 +1,9 @@
 // Read external LM75 temperature sensor using I2C master.
 // https://developer.mbed.org/teams/ST/code/Nucleo_i2c_master/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

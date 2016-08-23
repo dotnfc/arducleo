@@ -1,5 +1,9 @@
 // Output pwm signal with duty-cycle changed when pressing a button.
 // https://developer.mbed.org/teams/ST/code/Nucleo_pwm2/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

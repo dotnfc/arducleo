@@ -1,5 +1,9 @@
 // Output a pwm signal.
 // https://developer.mbed.org/teams/ST/code/Nucleo_pwm/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

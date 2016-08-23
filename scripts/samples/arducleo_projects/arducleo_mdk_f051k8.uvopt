@@ -1548,7 +1548,7 @@
   </Group>
 
   <Group>
-    <GroupName>mbed/TARGET_NUCLEO_F031K6</GroupName>
+    <GroupName>mbed/TARGET_ARDUCLEO_F051K8</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -1560,7 +1560,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/arm_common_tables.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/arm_common_tables.h</PathWithFileName>
       <FilenameWithoutPath>arm_common_tables.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1572,7 +1572,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/arm_const_structs.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/arm_const_structs.h</PathWithFileName>
       <FilenameWithoutPath>arm_const_structs.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1584,7 +1584,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/arm_math.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/arm_math.h</PathWithFileName>
       <FilenameWithoutPath>arm_math.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1596,7 +1596,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/cmsis.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/cmsis.h</PathWithFileName>
       <FilenameWithoutPath>cmsis.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1608,7 +1608,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/cmsis_nvic.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/cmsis_nvic.h</PathWithFileName>
       <FilenameWithoutPath>cmsis_nvic.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1620,7 +1620,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_ca9.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_ca9.h</PathWithFileName>
       <FilenameWithoutPath>core_ca9.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1632,7 +1632,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_ca_mmu.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_ca_mmu.h</PathWithFileName>
       <FilenameWithoutPath>core_ca_mmu.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1644,7 +1644,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_caFunc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_caFunc.h</PathWithFileName>
       <FilenameWithoutPath>core_caFunc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1656,7 +1656,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_caInstr.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_caInstr.h</PathWithFileName>
       <FilenameWithoutPath>core_caInstr.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1668,7 +1668,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cm0.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm0.h</PathWithFileName>
       <FilenameWithoutPath>core_cm0.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1680,7 +1680,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cm0plus.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm0plus.h</PathWithFileName>
       <FilenameWithoutPath>core_cm0plus.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1692,7 +1692,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cm3.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm3.h</PathWithFileName>
       <FilenameWithoutPath>core_cm3.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1704,7 +1704,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cm4.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm4.h</PathWithFileName>
       <FilenameWithoutPath>core_cm4.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1716,7 +1716,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cm4_simd.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm4_simd.h</PathWithFileName>
       <FilenameWithoutPath>core_cm4_simd.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1728,7 +1728,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cm7.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cm7.h</PathWithFileName>
       <FilenameWithoutPath>core_cm7.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1740,7 +1740,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cmFunc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmFunc.h</PathWithFileName>
       <FilenameWithoutPath>core_cmFunc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1752,7 +1752,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cmInstr.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmInstr.h</PathWithFileName>
       <FilenameWithoutPath>core_cmInstr.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1764,7 +1764,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cmSecureAccess.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmSecureAccess.h</PathWithFileName>
       <FilenameWithoutPath>core_cmSecureAccess.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1776,7 +1776,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_cmSimd.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_cmSimd.h</PathWithFileName>
       <FilenameWithoutPath>core_cmSimd.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1788,7 +1788,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_sc000.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_sc000.h</PathWithFileName>
       <FilenameWithoutPath>core_sc000.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1800,7 +1800,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/core_sc300.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/core_sc300.h</PathWithFileName>
       <FilenameWithoutPath>core_sc300.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1812,7 +1812,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/hal_tick.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/hal_tick.h</PathWithFileName>
       <FilenameWithoutPath>hal_tick.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1824,7 +1824,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32_hal_legacy.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32_hal_legacy.h</PathWithFileName>
       <FilenameWithoutPath>stm32_hal_legacy.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1836,8 +1836,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f031x6.h</PathWithFileName>
-      <FilenameWithoutPath>stm32f031x6.h</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f051x8.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f051x8.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1848,7 +1848,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1860,7 +1860,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1872,7 +1872,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_adc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_adc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_adc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1884,7 +1884,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_adc_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_adc_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_adc_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1896,7 +1896,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_can.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_can.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_can.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1908,7 +1908,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_cec.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_cec.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_cec.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1920,7 +1920,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_comp.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_comp.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_comp.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1932,7 +1932,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_conf.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_conf.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_conf.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1944,7 +1944,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_cortex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_cortex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_cortex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1956,7 +1956,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_crc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_crc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_crc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1968,7 +1968,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_crc_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_crc_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_crc_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1980,7 +1980,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dac.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dac.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_dac.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1992,7 +1992,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dac_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dac_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_dac_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2004,7 +2004,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_def.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_def.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_def.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2016,7 +2016,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dma.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dma.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_dma.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2028,7 +2028,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_dma_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_dma_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_dma_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2040,7 +2040,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_flash.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_flash.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_flash.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2052,7 +2052,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_flash_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_flash_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_flash_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2064,7 +2064,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_gpio.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_gpio.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_gpio.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2076,7 +2076,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_gpio_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_gpio_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_gpio_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2088,7 +2088,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_i2c.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_i2c.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_i2c.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2100,7 +2100,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_i2c_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_i2c_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_i2c_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2112,7 +2112,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_i2s.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_i2s.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_i2s.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2124,7 +2124,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_irda.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_irda.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_irda.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2136,7 +2136,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_irda_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_irda_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_irda_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2148,7 +2148,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_iwdg.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_iwdg.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_iwdg.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2160,7 +2160,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pcd.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pcd.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_pcd.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2172,7 +2172,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pcd_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pcd_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_pcd_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2184,7 +2184,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pwr.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pwr.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_pwr.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2196,7 +2196,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_pwr_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_pwr_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_pwr_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2208,7 +2208,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rcc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rcc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_rcc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2220,7 +2220,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rcc_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rcc_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_rcc_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2232,7 +2232,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rtc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rtc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_rtc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2244,7 +2244,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_rtc_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_rtc_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_rtc_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2256,7 +2256,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_smartcard.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_smartcard.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_smartcard.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2268,7 +2268,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_smartcard_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_smartcard_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_smartcard_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2280,7 +2280,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_smbus.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_smbus.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_smbus.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2292,7 +2292,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_spi.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_spi.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_spi.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2304,7 +2304,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_spi_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_spi_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_spi_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2316,7 +2316,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_tim.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_tim.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_tim.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2328,7 +2328,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_tim_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_tim_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_tim_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2340,7 +2340,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_tsc.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_tsc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_tsc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2352,7 +2352,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_uart.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_uart.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_uart.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2364,7 +2364,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_uart_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_uart_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_uart_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2376,7 +2376,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_usart.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_usart.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_usart.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2388,7 +2388,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_usart_ex.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_usart_ex.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_usart_ex.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2400,7 +2400,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/stm32f0xx_hal_wwdg.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/stm32f0xx_hal_wwdg.h</PathWithFileName>
       <FilenameWithoutPath>stm32f0xx_hal_wwdg.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2412,7 +2412,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/system_stm32f0xx.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/system_stm32f0xx.h</PathWithFileName>
       <FilenameWithoutPath>system_stm32f0xx.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2420,8 +2420,8 @@
   </Group>
 
   <Group>
-    <GroupName>mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0</GroupName>
-    <tvExp>0</tvExp>
+    <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0</GroupName>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -2432,7 +2432,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/common_objects.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/common_objects.h</PathWithFileName>
       <FilenameWithoutPath>common_objects.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2444,7 +2444,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/gpio_object.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/gpio_object.h</PathWithFileName>
       <FilenameWithoutPath>gpio_object.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2456,7 +2456,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/PeripheralPins.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/PeripheralPins.h</PathWithFileName>
       <FilenameWithoutPath>PeripheralPins.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2468,31 +2468,31 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/rtc_api_hal.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/rtc_api_hal.h</PathWithFileName>
       <FilenameWithoutPath>rtc_api_hal.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>22</GroupNumber>
+      <FileNumber>175</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\mbed\TARGET_ARDUCLEO_F051K8\TARGET_STM\TARGET_STM32F0\TARGET_ARDUCLEO_F051K8\PeripheralPins.c</PathWithFileName>
+      <FilenameWithoutPath>PeripheralPins.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
   </Group>
 
   <Group>
-    <GroupName>mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6</GroupName>
+    <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
-    <File>
-      <GroupNumber>23</GroupNumber>
-      <FileNumber>175</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/device.h</PathWithFileName>
-      <FilenameWithoutPath>device.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
     <File>
       <GroupNumber>23</GroupNumber>
       <FileNumber>176</FileNumber>
@@ -2500,8 +2500,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/objects.h</PathWithFileName>
-      <FilenameWithoutPath>objects.h</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/device.h</PathWithFileName>
+      <FilenameWithoutPath>device.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2512,8 +2512,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/PeripheralNames.h</PathWithFileName>
-      <FilenameWithoutPath>PeripheralNames.h</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/objects.h</PathWithFileName>
+      <FilenameWithoutPath>objects.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2524,8 +2524,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/PinNames.h</PathWithFileName>
-      <FilenameWithoutPath>PinNames.h</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/PeripheralNames.h</PathWithFileName>
+      <FilenameWithoutPath>PeripheralNames.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2536,7 +2536,19 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TARGET_STM/TARGET_STM32F0/TARGET_NUCLEO_F031K6/PortNames.h</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/PinNames.h</PathWithFileName>
+      <FilenameWithoutPath>PinNames.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>23</GroupNumber>
+      <FileNumber>180</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8/PortNames.h</PathWithFileName>
       <FilenameWithoutPath>PortNames.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2544,23 +2556,11 @@
   </Group>
 
   <Group>
-    <GroupName>mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO</GroupName>
+    <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
-    <File>
-      <GroupNumber>24</GroupNumber>
-      <FileNumber>180</FileNumber>
-      <FileType>3</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o</PathWithFileName>
-      <FilenameWithoutPath>cmsis_nvic.o</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
     <File>
       <GroupNumber>24</GroupNumber>
       <FileNumber>181</FileNumber>
@@ -2568,32 +2568,32 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/hal_tick.o</PathWithFileName>
-      <FilenameWithoutPath>hal_tick.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o</PathWithFileName>
+      <FilenameWithoutPath>cmsis_nvic.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>24</GroupNumber>
       <FileNumber>182</FileNumber>
-      <FileType>4</FileType>
+      <FileType>3</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/mbed.ar</PathWithFileName>
-      <FilenameWithoutPath>mbed.ar</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/hal_tick.o</PathWithFileName>
+      <FilenameWithoutPath>hal_tick.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>24</GroupNumber>
       <FileNumber>183</FileNumber>
-      <FileType>3</FileType>
+      <FileType>4</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/mbed_board.o</PathWithFileName>
-      <FilenameWithoutPath>mbed_board.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed.ar</PathWithFileName>
+      <FilenameWithoutPath>mbed.ar</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2604,8 +2604,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/mbed_overrides.o</PathWithFileName>
-      <FilenameWithoutPath>mbed_overrides.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed_board.o</PathWithFileName>
+      <FilenameWithoutPath>mbed_board.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2616,8 +2616,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/retarget.o</PathWithFileName>
-      <FilenameWithoutPath>retarget.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed_overrides.o</PathWithFileName>
+      <FilenameWithoutPath>mbed_overrides.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2628,20 +2628,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/startup_stm32f031x6.o</PathWithFileName>
-      <FilenameWithoutPath>startup_stm32f031x6.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/retarget.o</PathWithFileName>
+      <FilenameWithoutPath>retarget.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>24</GroupNumber>
       <FileNumber>187</FileNumber>
-      <FileType>3</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/startup_stm32f051x8.s</PathWithFileName>
+      <FilenameWithoutPath>startup_stm32f051x8.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2652,8 +2652,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_adc.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2664,8 +2664,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_adc_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_adc.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2676,8 +2676,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_can.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_can.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_adc_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_adc_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2688,8 +2688,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cec.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_cec.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_can.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_can.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2700,8 +2700,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_comp.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_comp.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cec.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_cec.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2712,8 +2712,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cortex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_cortex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_comp.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_comp.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2724,8 +2724,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_crc.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_cortex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_cortex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2736,8 +2736,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_crc_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_crc.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2748,8 +2748,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_dac.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_crc_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_crc_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2760,8 +2760,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_dac_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_dac.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2772,8 +2772,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dma.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_dma.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dac_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_dac_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2784,8 +2784,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_flash.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_dma.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_dma.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2796,8 +2796,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_flash_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_flash.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2808,8 +2808,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_gpio.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_gpio.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_flash_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_flash_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2820,8 +2820,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_i2c.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_gpio.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_gpio.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2832,8 +2832,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_i2c_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_i2c.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2844,8 +2844,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2s.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_i2s.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2c_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_i2c_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2856,8 +2856,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_irda.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_irda.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_i2s.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_i2s.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2868,8 +2868,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_iwdg.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_iwdg.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_irda.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_irda.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2880,8 +2880,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_pcd.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_iwdg.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_iwdg.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2892,8 +2892,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_pcd_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_pcd.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2904,8 +2904,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_pwr.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pcd_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_pcd_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2916,8 +2916,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_pwr_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_pwr.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2928,8 +2928,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_rcc.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_pwr_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_pwr_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2940,8 +2940,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_rcc_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_rcc.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2952,8 +2952,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_rtc.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rcc_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_rcc_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2964,8 +2964,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_rtc_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_rtc.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2976,8 +2976,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_smartcard.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_rtc_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_rtc_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2988,8 +2988,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_smartcard_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_smartcard.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3000,8 +3000,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smbus.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_smbus.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smartcard_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_smartcard_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3012,8 +3012,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_spi.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_smbus.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_smbus.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3024,8 +3024,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_spi_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_spi.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3036,8 +3036,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_tim.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_spi_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_spi_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3048,8 +3048,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_tim_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_tim.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3060,8 +3060,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tsc.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_tsc.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tim_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_tim_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3072,8 +3072,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_uart.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_tsc.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_tsc.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3084,8 +3084,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart_ex.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_uart_ex.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_uart.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3096,8 +3096,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_usart.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_usart.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_uart_ex.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_uart_ex.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3108,8 +3108,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_wwdg.o</PathWithFileName>
-      <FilenameWithoutPath>stm32f0xx_hal_wwdg.o</FilenameWithoutPath>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_usart.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_usart.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3120,7 +3120,19 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../../mbed/TARGET_NUCLEO_F031K6/TOOLCHAIN_ARM_MICRO/system_stm32f0xx.o</PathWithFileName>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/stm32f0xx_hal_wwdg.o</PathWithFileName>
+      <FilenameWithoutPath>stm32f0xx_hal_wwdg.o</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>24</GroupNumber>
+      <FileNumber>228</FileNumber>
+      <FileType>3</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/system_stm32f0xx.o</PathWithFileName>
       <FilenameWithoutPath>system_stm32f0xx.o</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

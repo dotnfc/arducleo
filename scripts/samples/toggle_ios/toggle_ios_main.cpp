@@ -1,5 +1,9 @@
 // Toggle several IOs of a port at the same time.
 // https://developer.mbed.org/teams/ST/code/Nucleo_toggle_ios/
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
+
 
 #include "mbed.h"
  

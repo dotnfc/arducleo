@@ -1,5 +1,8 @@
 // PWM output a 4Mhz Square Wave
 // by dotnfc@163.com
+//
+// Assembled by dotnfc as Arducleo Sample
+// 2016/08/23
 
 
 #include "mbed.h"
