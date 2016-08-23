@@ -2500,6 +2500,11 @@
               <FileType>5</FileType>
               <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/rtc_api_hal.h</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8</GroupName>
+          <Files>
             <File>
               <FileName>PeripheralPins.c</FileName>
               <FileType>1</FileType>
@@ -2552,11 +2557,6 @@
                 </FileArmAds>
               </FileOption>
             </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>mbed/TARGET_ARDUCLEO_F051K8/TARGET_STM/TARGET_STM32F0/TARGET_ARDUCLEO_F051K8</GroupName>
-          <Files>
             <File>
               <FileName>device.h</FileName>
               <FileType>5</FileType>
@@ -2618,9 +2618,9 @@
               <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/retarget.o</FilePath>
             </File>
             <File>
-              <FileName>startup_stm32f051x8.s</FileName>
-              <FileType>1</FileType>
-              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/startup_stm32f051x8.s</FilePath>
+              <FileName>startup_stm32f051x8.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/startup_stm32f051x8.o</FilePath>
             </File>
             <File>
               <FileName>stm32f0xx_hal.o</FileName>
