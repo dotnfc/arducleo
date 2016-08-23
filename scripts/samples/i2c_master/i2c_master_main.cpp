@@ -5,7 +5,7 @@
  
 #define LM75_REG_TEMP (0x00) // Temperature Register
 #define LM75_REG_CONF (0x01) // Configuration Register
-#define LM75_ADDR     (0x90) // LM75 address
+#define LM75_ADDR     (0xA0) // LM75 address
  
 I2C i2c(I2C_SDA, I2C_SCL);
  

@@ -38,6 +38,6 @@ else
 
 VPATH = .. 
 
-include ../../stm32f1.mk
+include ../../stm32.mk
 
 endif

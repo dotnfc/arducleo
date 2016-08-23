@@ -13,7 +13,7 @@ PwmOut ledR(PC_6);
 PwmOut ledG(PC_8);
 PwmOut ledB(PC_9);
 
-Serial pc(SERIAL_TX, SERIAL_RX);
+//Serial pc(SERIAL_TX, SERIAL_RX);
 
 /*==============================================================================
  * \brief arduino like 'tone ()'
@@ -40,10 +40,10 @@ void tone(int frequency, float duration)
 }
 
 
-void analogWrite(mbed::PwmOut *prt, int spd) // write to PWM
+void analogWrite(mbed::PwmOut *prt, float spd) // write to PWM
 {
     float a = spd / 256.0; // convert 0..256 to '%'
-    pc.printf ( "a - %d, (%f)\n", spd, a );
+    //pc.printf ( "a - %d, (%f)\n", spd, a );
     *prt = a;
 }
 
@@ -70,16 +70,20 @@ void delay (int ms)
  * \brief main entry
  */
 void loop();
+void loop1();
 int main ()
 {
-    pc.baud (115200);
-    
-    //tone (1000, 400);
-    //tone (2000, 400);
-    ledR = ledG = ledB = 255;
+    ledR = ledG = ledB = 1;
+    //pc.baud (115200);
+    //led = 1;
+    tone (120, 800);
+    tone (200, 600);
+    tone (300, 400);
+    //
+    //led = 0;
     
     while(1) {
-        loop ();
+        //loop1 ();
 #if 0
         led = 1;        
         ledR = 1;   ledB = 0;   ledG = 0;   wait_ms (1000);

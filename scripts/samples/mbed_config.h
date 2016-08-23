@@ -5,4 +5,4 @@
 #define __MBED_CONFIG_DATA__
 
 
-#endif
+#endif /* __MBED_CONFIG_DATA__ */
