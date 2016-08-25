@@ -56,11 +56,25 @@ void get_openocd_path_info ()
         sprintf ( sz_dap_cfg, "%s", "interface/cmsis-dap.cfg" );
     else
         sprintf ( sz_dap_cfg, "%s", "interface/stlink-v2-1.cfg" );
-    sprintf ( sz_stm_cfg, "%s", "target/stm32f1x.cfg" );
+        
+    if (ui_getint ( "rF0" )) {
+        sprintf ( sz_stm_cfg, "%s", "target/stm32f0x.cfg" );
+    }
+    else if (ui_getint ( "rF1" )) {
+        sprintf ( sz_stm_cfg, "%s", "target/stm32f1x.cfg" );
+    }
+    else if (ui_getint ( "rF4" )) {
+        sprintf ( sz_stm_cfg, "%s", "target/stm32f4x.cfg" );
+    }
+    
     strcpy (sz_app_file, mbed_get_target_path ());
     p = str_replace ( sz_app_file, "\\", "/" );
     strcpy (sz_app_file, p);
-    sprintf ( sz_ocd_param, " -s %s -f %s -f %s -c \"adapter_khz 4000\" -c \"reset_config srst_only\" ", sz_ocd_scr_path, sz_dap_cfg, sz_stm_cfg );
+    
+    if (ui_getint ( "rF0" ))
+        sprintf ( sz_ocd_param, " -s %s -f %s -f %s -c \"reset_config connect_assert_srst\" ", sz_ocd_scr_path, sz_dap_cfg, sz_stm_cfg );
+    else
+        sprintf ( sz_ocd_param, " -s %s -f %s -f %s -c \"adapter_khz 4000\" -c \"reset_config srst_only\" ", sz_ocd_scr_path, sz_dap_cfg, sz_stm_cfg );
 }
 
 
@@ -110,6 +124,10 @@ void btnDownload_Click()
 char sz_ocd_bin[260];
 void ui_init ()
 {
+    ui_setint ( "rF0", 0 );
+    ui_setint ( "rF1", 1 );
+    ui_setint ( "rF4", 0 );
+    
     ui_setint ( "rDAPLink", 1 );
     ui_setint ( "rSTLink", 0 );
     sprintf ( sz_ocd_bin, "%s\\openocd\\bin", BIN_PATH );
@@ -122,18 +140,10 @@ void ui_init ()
 // xml ui resource
 char *nfcshare_ui = [[
 <?xml version="1.0" ?>
-<ControlWnd Name="mbed 固件下载" LocationX="0" LocationY="0" SizeWidth="376" SizeHeight="270" >
+<ControlWnd Name="mbed 固件下载" LocationX="0" LocationY="0" SizeWidth="376" SizeHeight="340" >
   <ControlGroups>
     <ControlGroup Name="Group 1">
       <Controls>
-
-        <Button Name="btnReset" Visible="true" Enabled="true"
-            LocationX="190" LocationY="166" SizeWidth="120" SizeHeight="34"
-            Text="复位目标芯片"></Button> 
-
-        <Button Name="btnDownload" Visible="true" Enabled="true"
-            LocationX="41" LocationY="166" SizeWidth="120" SizeHeight="34"
-            Text="下载固件"></Button> 
 
         <Label Name="lbl0" Visible="true" Enabled="true"
             LocationX="32" LocationY="12" SizeWidth="293" SizeHeight="47"
@@ -151,6 +161,30 @@ char *nfcshare_ui = [[
             LocationX="193" LocationY="100" SizeWidth="112" SizeHeight="17"
             Text="STLink" RadioManager="rDAPLink"></RadioButton> 
 
+        <GroupBox Name="g2" Visible="true" Enabled="true"
+            LocationX="34" LocationY="142" SizeWidth="293" SizeHeight="64"
+            Text="平台"></GroupBox> 
+
+        <RadioButton Name="rF0" Visible="true" Enabled="true"
+            LocationX="76" LocationY="174" SizeWidth="56" SizeHeight="17"
+            Text="F0"></RadioButton> 
+
+        <RadioButton Name="rF1" Visible="true" Enabled="true"
+            LocationX="149" LocationY="174" SizeWidth="56" SizeHeight="17"
+            Text="F1" RadioManager="rF0"></RadioButton> 
+
+        <RadioButton Name="rF4" Visible="true" Enabled="true"
+            LocationX="221" LocationY="174" SizeWidth="56" SizeHeight="15"
+            Text="F4" RadioManager="rF0"></RadioButton> 
+
+        <Button Name="btnReset" Visible="true" Enabled="true"
+            LocationX="193" LocationY="223" SizeWidth="120" SizeHeight="34"
+            Text="复位目标芯片"></Button> 
+
+        <Button Name="btnDownload" Visible="true" Enabled="true"
+            LocationX="44" LocationY="223" SizeWidth="120" SizeHeight="34"
+            Text="下载固件"></Button> 
+                        
       </Controls>
     </ControlGroup>
   </ControlGroups>

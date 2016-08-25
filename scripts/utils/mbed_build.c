@@ -49,6 +49,9 @@ char *get_target_param (char *buf)
     n = ui_getint ( "rF405" );
     if (n)  { strcat (buf, " F405RG=1 ");  printf ("Target STM32F405RG\n");   return buf; }
     
+    n = ui_getint ( "rF051" );
+    if (n)  { strcat (buf, " F051K8=1 ");  printf ("Target STM32F051K8\n");   return buf; }
+    
     printf ( "Unknown Target\n" );
 }
 
@@ -92,6 +95,7 @@ void btnClean_Click()
  */
 void reset_target_radio ()
 {
+    ui_setint ( "rF051", 0 );
     ui_setint ( "rF072", 0 );
     ui_setint ( "rF103", 1 );
     ui_setint ( "rF401", 0 );
@@ -142,10 +146,14 @@ char *nfcshare_ui = [[
             LocationX="45" LocationY="152" SizeWidth="159" SizeHeight="22"
             Text="STM32F401RE" RadioManager="rF103"></RadioButton> 
 
-        <RadioButton Name="rF072" Visible="true" Enabled="true"
+        <RadioButton Name="rF051" Visible="true" Enabled="true"
             LocationX="219" LocationY="114" SizeWidth="159" SizeHeight="22"
-            Text="STM32F072RB" RadioManager="rF103"></RadioButton> 
+            Text="STM32F051K8" RadioManager="rF103"></RadioButton> 
 
+        <RadioButton Name="rF072" Visible="true" Enabled="true"
+            LocationX="386" LocationY="114" SizeWidth="159" SizeHeight="22"
+            Text="STM32F072RB"  RadioManager="rF103"></RadioButton> 
+            
         <RadioButton Name="rF405" Visible="true" Enabled="true"
             LocationX="219" LocationY="152" SizeWidth="159" SizeHeight="22"
             Text="STM32F405RG" RadioManager="rF103"></RadioButton> 

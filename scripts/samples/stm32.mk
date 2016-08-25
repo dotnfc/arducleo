@@ -11,6 +11,9 @@ ifdef F013RB
 else ifdef F013RC
   #$(warning Target STM32F013RC)
   TARGET_MK=../../stm32f103rx.mk
+else ifdef F051K8
+  #$(warning Target STM32F051K8)
+  TARGET_MK=../../stm32f051k8.mk
 else ifdef F072RB
   #$(warning Target STM32F072RB)
   TARGET_MK=../../stm32f072rb.mk
@@ -88,8 +91,7 @@ all: $(PROJECT).bin $(PROJECT).hex size
 
 $(PROJECT).elf: $(OBJECTS) $(SYS_OBJECTS) $(LINKER_SCRIPT)
 	@echo linking $@ 
-	@$(LD) $(LD_FLAGS) -T$(filter %.ld, $^) $(LIBRARY_PATHS) -o $@ $(filter %.o, $^) -Wl,--start-group $(LIBRARIES) $(LD_SYS_LIBS) -Wl,--end-group
-
+	@$(LD) $(LD_FLAGS) -T$(filter %.ld, $^) $(LIBRARY_PATHS) -o $@ $(filter %.o, $^) -Wl,-Map,$(PROJECT).map -Wl,--start-group $(LIBRARIES) $(LD_SYS_LIBS) -Wl,--end-group
 
 $(PROJECT).bin: $(PROJECT).elf
 	$(OBJCOPY) -O binary $< $@
