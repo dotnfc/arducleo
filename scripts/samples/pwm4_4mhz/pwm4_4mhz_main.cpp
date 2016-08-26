@@ -14,7 +14,7 @@ DigitalOut myled(LED1);
 
 int main() 
 {
-    printf ("4Mhz frequency on PA1/A1 pin.\n");
+    printf ("4Mhz frequency on PWM_OUT/D3 pin.\n");
     while(1) { 
         myled = !myled;
         wait(1);
