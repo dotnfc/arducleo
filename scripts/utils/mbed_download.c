@@ -94,7 +94,12 @@ void dld_action (char *msg, char *cmdl, char *param)
 void btnReset_Click()
 {
     get_openocd_path_info ();
-    strcat (sz_ocd_param, " -c \"init\"  -c \"reset run\" -c \"exit\"");
+    
+    if (ui_getint ( "rF0" ))
+        strcat (sz_ocd_param, " -c \"init\"  -c \"reset run\" -c \"exit\"");
+    else
+        strcat (sz_ocd_param, " -c \"init\"  -c \"reset run\" -c \"exit\"");
+        
     printf ( "%s\n", sz_ocd_param );
     
     dld_action ("¸´Î»Ð¾Æ¬", "openocd", sz_ocd_param); 

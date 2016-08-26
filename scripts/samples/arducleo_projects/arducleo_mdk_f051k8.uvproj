@@ -2593,11 +2593,6 @@
               <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o</FilePath>
             </File>
             <File>
-              <FileName>hal_tick.o</FileName>
-              <FileType>3</FileType>
-              <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/hal_tick.o</FilePath>
-            </File>
-            <File>
               <FileName>mbed.ar</FileName>
               <FileType>4</FileType>
               <FilePath>../../mbed/TARGET_ARDUCLEO_F051K8/TOOLCHAIN_ARM_MICRO/mbed.ar</FilePath>
