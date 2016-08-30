@@ -14,7 +14,7 @@ The Arducleo has
 
 ![snap_main.png](image/snap_main.png "board image")
 
-&nbsp; &nbsp; <img src="image/snap_assemble.png" width="560">
+
 
 # 2. Technical specs
 
@@ -22,7 +22,7 @@ The Arducleo has
  <tbody>
   <tr>
     <td>Microcontroller</td>
-    <td>STM32F103RC, 32-Bit ARM Cortex M3</td>
+    <td>STM32F103RB, 32-Bit ARM Cortex M3</td>
   </tr>
 
   <tr>
@@ -60,12 +60,12 @@ The Arducleo has
 
   <tr>
     <td>Flash Memory</td>
-    <td>256 KB</td>
+    <td>128 KB</td>
   </tr>
 
   <tr>
     <td>SRAM</td>
-    <td>48 KB</td>
+    <td>20 KB</td>
   </tr>
 
   <tr>
@@ -83,11 +83,11 @@ The Arducleo has
 
 # 3. Documentation
 
-For user manual, here is one in Chinese: ' [Arducleo_UM_rev160808_v12.pdf](./scripts/doc/Arducleo_UM_rev160808_v12.pdf "") '
+For user manual, here is one in Chinese: ' [Arducleo_UM_rev160830_v13_chs.pdf](./scripts/doc/Arducleo_UM_rev160830_v13_chs.pdf "") '
 
 ## 3.1 schematic 
 <hr>
-Please refer to ' [Arducleo_sch_rev160808_v12.pdf](./scripts/doc/Arducleo_sch_rev160808_v12.pdf "") '
+Please refer to ' [Arducleo_sch_rev160830_v13.pdf](./scripts/doc/Arducleo_sch_rev160830_v13.pdf "") '
 
 ## 3.2 In-box SWD Debuger
 <hr>
@@ -103,7 +103,7 @@ External power can come either from the 'U-5V' or the 'VIN' connector, they are 
 
 ## 3.4 Memory
 <hr>
-The Arducleo has 256 KB Flash Memory and 48 KB of SRAM. 
+The Arducleo has 128 KB Flash Memory and 20 KB of SRAM. 
 
 ## 3.5 Input and Output
 <hr>

@@ -129,12 +129,12 @@ void btnDownload_Click()
 char sz_ocd_bin[260];
 void ui_init ()
 {
-    ui_setint ( "rF0", 0 );
-    ui_setint ( "rF1", 1 );
-    ui_setint ( "rF4", 0 );
+    //ui_setint ( "rF0", 0 );
+    //ui_setint ( "rF1", 1 );
+    //ui_setint ( "rF4", 0 );
     
-    ui_setint ( "rDAPLink", 1 );
-    ui_setint ( "rSTLink", 0 );
+    //ui_setint ( "rDAPLink", 1 );
+    //ui_setint ( "rSTLink", 0 );
     sprintf ( sz_ocd_bin, "%s\\openocd\\bin", BIN_PATH );
     mbed_gcc_bin_path ( sz_ocd_bin );
     mbed_openocd_bin_path ( sz_ocd_bin );
