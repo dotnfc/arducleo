@@ -95,6 +95,7 @@ char *get_baud ()
         
         case 6: s = "baud=57600"; break;
         case 7: s = "baud=115200"; break;
+        case 8: s = "baud=125000"; break;
         default: s = "baud=9600"; break;        
     }
     
@@ -434,6 +435,7 @@ void ui_init ()
     ui_additem ( "cbxBaud", "19200" );
     ui_additem ( "cbxBaud", "57600" );
     ui_additem ( "cbxBaud", "115200" );
+    ui_additem ( "cbxBaud", "125000" );
     ui_additem ( "cbxBaud", "128000" );
     ui_additem ( "cbxBaud", "256000" );
     ui_setsel_inx ( "cbxBaud", 3 );
