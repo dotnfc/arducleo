@@ -25,9 +25,9 @@ void btnOK_Click ()
     int sex_man  = ui_getint ("rbMan");
     
     if (sex_man)
-        printf ("尊敬的 %s 先生，\n  欢迎使用 Cardpad 2011！\n", name);
+        printf ("尊敬的 %s 先生，\n  欢迎使用 NFCShare 2018！\n", name);
     else
-        printf ("尊敬的 %s 女士，\n  欢迎使用 Cardpad 2011！\n", name);
+        printf ("尊敬的 %s 女士，\n  欢迎使用 NFCShare 2018！\n", name);
         
     ui_close ();
 }
