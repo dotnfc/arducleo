@@ -1,3 +1,6 @@
+# The Arducleo Samples & Hardware  
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/dotnfc/arducleo/blob/master/LICENSE)
+
 # 1. Overview
 arducleo is a stm32f103rb based development board with arduino interface, compatible with mbed. 
 

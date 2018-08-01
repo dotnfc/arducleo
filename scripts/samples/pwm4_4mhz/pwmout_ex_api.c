@@ -12,8 +12,48 @@ static TIM_HandleTypeDef TimHandle;
 
 static void pwmout_period_ns (pwmout_t* obj, int pres);
 static void pwmout_write_ex (pwmout_t* obj, float value);
+
+char HSE_SystemClock_Config_72Mhz(void) 
+{ // STM32F103RB
+    RCC_OscInitTypeDef RCC_OscInitStruct;
+    
+    RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+    RCC_OscInitStruct.HSEState = RCC_HSE_ON;        // RCC_HSE_BYPASS
+    RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
+    RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+    RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+    RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
+
+    if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
+        return 0;
+    }
+    RCC_ClkInitTypeDef RCC_ClkInitStruct;
+    RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                                  |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+    RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+    RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+    RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK) {
+        return 0;
+    }
+    RCC_PeriphCLKInitTypeDef PeriphClkInit;
+    PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USB;
+    PeriphClkInit.UsbClockSelection = RCC_USBPLLCLK_DIV1_5;
+    if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK) {
+        return 0;
+    }
+    return 1;
+}
+
 void pwmout_init_ex(pwmout_t* obj, PinName pin, uint32_t freq)
 {
+    HAL_RCC_DeInit();
+    if (!HSE_SystemClock_Config_72Mhz()) {
+        error("PWM error: switch to 72Mhz failed.");;
+    }
+    
     // Update the SystemCoreClock variable
     SystemCoreClockUpdate();
 
