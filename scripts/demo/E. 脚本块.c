@@ -34,6 +34,17 @@ void btnBatPing_Click()
     exec_block ( bat );
 }
 
+// Windows Explorer Shell Drag and Drop
+void dnd_Notify ()
+{
+    int cnt = ui_dnd_get_count (  );
+    
+    for ( int i=0; i<cnt; i++ ) 
+    {
+        char *s = ui_dnd_get_item ( i );
+        printf ( "[%d]: %s\n", i + 1, s );
+    }
+}
 
 // ui init call back.
 void ui_init ()
